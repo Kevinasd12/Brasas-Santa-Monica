@@ -13,10 +13,6 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Brasas Restaurant Santa Mónica</title>
 <!--
-    
-TemplateMo 558 Klassy Cafe
-
-https://templatemo.com/tm-558-klassy-cafe
 
 -->
     <!-- Additional CSS Files -->
@@ -654,26 +650,9 @@ https://templatemo.com/tm-558-klassy-cafe
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-    <script>
-
-        $(function() {
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
-
-    </script>
+    <script src="assets/js/fun.js"></script>
 <!--Iconos-->
 <script
-    src="https://kit.fontawesome.com/040b0faae2.js" crossorigin="anonymous">
-</script>
+    src="https://kit.fontawesome.com/040b0faae2.js" crossorigin="anonymous"></script>
   </body>
 </html>
