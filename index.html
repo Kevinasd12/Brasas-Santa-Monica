@@ -84,7 +84,7 @@
                             <h3>Brasas</h3>
                             <h6>Disfruta el mejor pollo en familia</h6>
                             <div class="main-white-button scroll-to-section">
-                                <a href="#reservation">Reserva una mesa</a>
+                                <a href="#reservation">Reservaciones</a>
                             </div>
                         </div>
                     </div>
@@ -95,21 +95,21 @@
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="/assets/images/Slides/slide01.jpg" alt="">
+                                <img id="imagen-main" src="/assets/images/Slides/slide01.jpg">
                             </div>
                           </div>
                           <!-- // Item -->
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="/assets/images/Slides/slide02.jpg" alt="">
+                                <img  id="imagen-main" src="/assets/images/Slides/slide02.jpg" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="/assets/images/Slides/slide033.jpg" alt="">
+                                <img  id="imagen-main" src="/assets/images/Slides/slide033.jpg" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
@@ -172,7 +172,7 @@
                 </div>
                 <div id="cartas">
                     <a class="botones" rel="nofollow" target="_blank" href="https://drive.google.com/file/d/1p5FKOBdpUAs6C5GYwI7FOYNlNcbaWY_D/view">Nuestra carta </a> 
-                    <a class="botones" rel="nofollow" target="_blank" href="https://drive.google.com/file/d/1cVBGvtfDu7PR3a6fqB1MTYBZaAYF8I1i/view">Combos para llevar</a>
+                    <a class="botones" rel="nofollow" target="_blank" href="https://drive.google.com/file/d/1cVBGvtfDu7PR3a6fqB1MTYBZaAYF8I1i/view">Combos Delivery</a>
                 </div>
             </div>
             <div class="row">
@@ -532,26 +532,28 @@
                         </div>
                     </div>
                 </div>
+<!----------------------------------------------------------------------------------------->
+
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form id="contact" action="" method="post">
+                        <form id="contact" >
                           <div class="row">
                             <div class="col-lg-12">
                                 <h4>Reserva una mesa</h4>
                             </div>
                             <div class="col-lg-6 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Nombre*" required="">
-                              </fieldset>
+                              
+                                <input name="name" type="text" id="name" placeholder="Nombre*" required>
+                              
                             </div>
                             <div class="col-lg-6 col-sm-12">
-                              <fieldset>
-                                <input name="phone" type="text" id="phone" placeholder="Número de teléfono*" required="">
-                              </fieldset>
+                             
+                                <input name="phone" type="text" id="phone" placeholder="Número de teléfono*" required>
+                              
                             </div>
                             <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <select value="number-guests" name="number-guests" id="number-guests">
+                              
+                                <select value="number_guests" name="number_guests" id="number-guests">
                                     <option value="number-guests">Sillas requeridas</option>
                                     <option name="1" id="1">1</option>
                                     <option name="2" id="2">2</option>
@@ -565,7 +567,7 @@
                                     <option name="10" id="+10">+10</option>
 
                                 </select>
-                              </fieldset>
+                              
                             </div>
                             <div class="col-lg-6">
                                 <div id="filterDate2">    
@@ -579,14 +581,14 @@
                             </div>
                         
                             <div class="col-lg-12">
-                              <fieldset>
+                              
                                 <textarea name="message" rows="6" id="message" placeholder="Mensaje" ></textarea>
-                              </fieldset>
+                             
                             </div>
                             <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
-                              </fieldset>
+                              
+                                <button  class="main-button-icon"  type="button" onclick="submitForm()">Reserva una mesa</button>
+                              
                             </div>
                           </div>
                         </form>
@@ -652,9 +654,10 @@
     <!--  Global Init -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/fun.js"></script>
-<!--Iconos-->
-<script
-    src="https://kit.fontawesome.com/040b0faae2.js" crossorigin="anonymous"></script>
-  </body>
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/040b0faae2.js" crossorigin="anonymous"></script>
+      <!--formualario-->
+    <script src="/assets/js/formulario.js"> </script>
+    </body>
   <!-- Kevin Da Silva-->
-</html>
+    </html>
